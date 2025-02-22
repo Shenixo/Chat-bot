@@ -1,0 +1,21 @@
+.chat-window{
+    width: 100%;
+    min-height: 100dvh;
+    width: 55% !important;
+    margin:  auto;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    /* overflow-y: auto; */
+    padding-bottom: 7rem;
+}
+@media only screen and (max-width: 1330px){
+    .chat-window{
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .chat-window{
+        width: 90% !important;
+    }
+  }

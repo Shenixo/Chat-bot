@@ -1,0 +1,20 @@
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding:.7rem 0.8rem;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0.3rem;
+  color: #90caf9;
+  margin-inline: .2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.button:hover {
+  backdrop-filter: blur(8px);
+  background: rgba(144, 202, 249, 0.15);
+}
