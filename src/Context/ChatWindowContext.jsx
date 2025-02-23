@@ -246,7 +246,10 @@ const ChatWindowContextProvider = ({ children }) => {
     summarizeUserInput(message);
   };
 
-  const API_EMAIL = import.meta.env.VITE_API_EMAILL;
+  const API_EMAIL = import.meta.env.VITE_API_EMAIL
+  console.log({ API_EMAIL })
+  console.log({ API_LANGUAGE_DETECTOR_KEY })
+  console.log({API_SUMMARIZER_KEY})
   const translateText = async (sourceLang, targetLang, text) => {
     console.log({ sourceLang })
     console.log({ targetLang })
