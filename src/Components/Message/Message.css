@@ -203,3 +203,8 @@
     min-width: 85%;
   }
 }
+@media only screen and (max-width: 500px){
+.message{
+  max-width: 80%;
+}
+}
